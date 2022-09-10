@@ -1,0 +1,12 @@
+.foot {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 650px) {
+    .foot {
+        flex-direction: column;
+    }
+}
